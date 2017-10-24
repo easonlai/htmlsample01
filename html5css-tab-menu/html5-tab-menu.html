@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>Tabs Menu with HTML5 & CSS only</title>
+    </head>
+    <header>
+     <link rel="stylesheet" type="text/css" href="css-tab-menu.css">
+    </header>
+    <body>
+            <h1>Tabs Menu with HTML5 & CSS only</h1>
+            <!--Building Master Container-->
+            <div id="container">
+                <!--Building tab 1-->
+                <input id="tab-1" type="radio" name="tab-group" />
+                <label for="tab-1">Tab 1</label>
+                <!--Building tab 2-->
+                <input id="tab-2" type="radio" name="tab-group" />
+                <label for="tab-2">Tab 2</label>
+                <!--Building tab 3-->
+                <input id="tab-3" type="radio" name="tab-group" />
+                <label for="tab-3">Tab 3</label>
+                <!--Building sub-container for each tab content store-->
+                <div id="content">
+                    <!--Content for tab 1-->
+                    <div id="content-1">
+                        <p class="column-left"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 1 in a Minions!</p>
+                        <p class="column-right"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 2 in a Minions!</p>
+                        <p class="column-right"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 3 in a Minions!</p>
+                        <p class="column-right"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 4 in a Minions!</p>
+                    </div>
+                    <!--Content for tab 2-->
+                    <div id="content-2">
+                        <p class="column-left"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 1 in a Minions!</p>
+                        <p class="column-right"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 2 in a Minions!</p>
+                        <p class="column-right"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 3 in a Minions!</p>
+                        <p class="column-right"><img src="minions-bob.jpg" alt="minions-bob" height="100" width="100">Bello! I'm Bob, 4 in a Minions!</p>
+                    </div>
+                    <!--Content for tab 3-->
+                    <div id="content-3">
+
+                            <table border=1 style='border-collapse:collapse;border:none'>
+                                    <!-- Building row number 1 (Top) -->
+                                    <tr>
+                                     <!-- Row merge from 1 to 4 and insert image. -->
+                                     <td width=67 rowspan=4 valign=top style='width:50.05pt;border:solid #FFC000;
+                                     border-right:none'>
+                                     <p><img src="minions-bob.jpg" alt="Smiley face" height="100" width="100"></p>
+                                     </td>
+                                     <!-- Insert text box with default value 100. -->
+                                     <td width=67 valign=top style='width:50.05pt;border:none;border-top:solid #FFC000'>
+                                     <p><form><input type="text" name="tabav1" value="100"></form></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border-top:solid #FFC000;
+                                     border-left:none;border-bottom:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <!-- Row merge from 1 to 4 and insert image. -->
+                                     <td width=67 rowspan=4 valign=top style='width:50.1pt;border-top:solid #FFC000 ;
+                                     border-left:none;border-bottom:solid #FFC000;border-right:none'>
+                                     <p><img src="minions-bob.jpg" alt="Smiley face" height="100" width="100"></p>
+                                     </td>
+                                     <!-- Insert text box with default value 100. -->
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-top:solid #FFC000'>
+                                     <p><form><input type="text" name="tabav2" value="100"></form></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border-top:solid #FFC000;
+                                     border-left:none;border-bottom:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <!-- Row merge from 1 to 4 and insert image. -->
+                                     <td width=67 rowspan=4 valign=top style='width:50.1pt;border-top:solid #FFC000;
+                                     border-left:none;border-bottom:solid #FFC000;border-right:none'>
+                                     <p><img src="minions-bob.jpg" alt="Smiley face" height="100" width="100"></p>
+                                     </td>
+                                     <!-- Insert text box with default value 100. -->
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-top:solid #FFC000'>
+                                     <p><form><input type="text" name="tabav3" value="100"></form></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border-top:solid #FFC000;
+                                     border-left:none;border-bottom:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                    </tr>
+                                    <!-- Building row number 2 -->
+                                    <tr>
+                                     <td width=67 valign=top style='width:50.05pt;border:none;'>
+                                     <p><form><button type="tabaadd1" value="Add">Add</button></form></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none'>
+                                     <p><form><button type="tabaadd2" value="Add">Add</button></form></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none'>
+                                     <p><form><button type="tabaadd3" value="Add">Add</button></form></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                    </tr>
+                                    <!-- Building row number 3 -->
+                                    <tr>
+                                     <td width=67 valign=top style='width:50.05pt;border:none'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                    </tr>
+                                    <!-- Building row number 4 -->
+                                    <tr>
+                                     <td width=67 valign=top style='width:50.05pt;border:none;border-bottom:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border-top:none;border-left:none;
+                                     border-bottom:solid #FFC000;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-bottom:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border-top:none;border-left:none;
+                                     border-bottom:solid #FFC000;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border:none;border-bottom:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                     <td width=67 valign=top style='width:50.1pt;border-top:none;border-left:none;
+                                     border-bottom:solid #FFC000;border-right:solid #FFC000'>
+                                     <p></p>
+                                     </td>
+                                    </tr>
+                                   </table>
+
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

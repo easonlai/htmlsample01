@@ -1,0 +1,119 @@
+* {
+	font-family: Arial, sans;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+h1 {
+	margin: 1em 0;
+	text-align: center;
+}
+
+#container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#container input {
+	height: 2.5em;
+	visibility: hidden;
+}
+
+#container label {
+	background: #f9f9f9;
+	border-top: solid #000000;
+	border-left: solid #000000;
+	border-right: solid #000000;
+	border-radius: .25em .25em 0 0;
+	color: #888;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 1em;
+	height: 2.5em;
+	line-height: 2.5em;
+	margin-right: .25em;
+	padding: 0 1.5em;
+	text-align: center;
+}
+
+#container input:hover + label {
+	background: #ddd;
+	color: #666;
+}
+
+#container input:checked + label {
+	background: #f1f1f1;
+	color: #444;
+	position: relative;
+	z-index: 6;
+}
+
+#content {
+	background: #FFFFFF;
+	border-radius: 0 .25em .25em .25em;
+	min-height: 20em;
+	position: relative;
+	width: 100%;
+	z-index: 5;
+}
+
+#content div {
+	opacity: 0;
+	padding: 1.5em;
+	position: absolute;
+	z-index: -100;
+	border: solid #000000;
+}
+
+#content-1 p {
+	float: left;
+	width: 20.5%;
+}
+#content-1 p.column-right {
+	margin-left: 3%;
+}
+#content-1 p img {
+	display: block;
+	margin: 0 auto 1em auto;
+}
+
+#content-2 p {
+	float: left;
+	width: 20.5%;
+}
+#content-2 p.column-right {
+	margin-left: 3%;
+}
+#content-2 p img {
+	display: block;
+	margin: 0 auto 1em auto;
+}
+
+#content-3 p {
+	float: left;
+	width: 20.5%;
+}
+#content-3 p.column-right {
+	margin-left: 3%;
+}
+#content-3 p img {
+	display: block;
+	margin: 0 auto 1em auto;
+}
+#content-3 input {
+	visibility: visible;
+}
+
+#container input#tab-1:checked ~ #content #content-1,
+#container input#tab-2:checked ~ #content #content-2,
+#container input#tab-3:checked ~ #content #content-3 {
+    opacity: 1;
+    z-index: 100;
+}
+
+input.visible {
+  visibility: visible !important;
+}
