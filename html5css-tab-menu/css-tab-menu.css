@@ -40,8 +40,10 @@ h1 {
 }
 
 #container input:hover + label {
-	background: #ddd;
-	color: #666;
+	background: #f1f1f1;
+	color: #444;
+	position: relative;
+	z-index: 6;
 }
 
 #container input:checked + label {
@@ -107,9 +109,18 @@ h1 {
 	visibility: visible;
 }
 
+/*
 #container input#tab-1:checked ~ #content #content-1,
 #container input#tab-2:checked ~ #content #content-2,
 #container input#tab-3:checked ~ #content #content-3 {
+    opacity: 1;
+    z-index: 100;
+}
+*/
+
+#container input#tab-1:hover ~ #content #content-1,
+#container input#tab-2:hover ~ #content #content-2,
+#container input#tab-3:hover ~ #content #content-3 {
     opacity: 1;
     z-index: 100;
 }
