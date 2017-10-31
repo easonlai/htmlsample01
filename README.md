@@ -6,4 +6,6 @@ roundtable.html + roundtable.css - Intermediate level HTML table building exampl
 
 jstabmenu.html - Intermediate level HTML page with Javascript tabs menu. Embedded CSS definition in HTML page.
 
-html5css-tab-menu\html5-tab-menu.html + html5css-tab-menu\css-tab-menu.css - Intermediate level HTML5 Tabs Menu with example with CSS style control. 
+html5css-tab-menu\html5-tab-menu.html + html5css-tab-menu\css-tab-menu.css - Intermediate level HTML5 Tabs Menu with example with CSS style control.
+
+3-column-css-layoute.html + 3-column-css-layout.css - 3 Column CSS Layout
